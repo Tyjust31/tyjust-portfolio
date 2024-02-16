@@ -1,39 +1,38 @@
 <script lang="ts">
-   import mode from "$lib/mode.svg";
-   import violet from "$lib/violet.svg";
-   import sport from "$lib/sport.svg";
-   import moon from "$lib/moon.svg";
-   import light from "$lib/light.svg";
-   import kenneth from "$lib/kenneth.svg";
-   import modeb from "$lib/modeb.svg";
-   import davix from "$lib/davix.svg";
-   import saintv from "$lib/saintv.svg";
-   import app from "$lib/app.svg";
+    import mode from "$lib/mode.svg";
+    import violet from "$lib/violet.svg";
+    import sport from "$lib/sport.svg";
+    import saintv from "$lib/saintv.svg";
+    import app from "$lib/app.svg";
+    import davix from "$lib/davix.svg";
+    import kenneth from "$lib/kenneth.svg";
+    import moon from "$lib/moon.svg";
 
-   interface website {
-    src: string;
-     alt: string;
-     href: string;
-   }
+    interface Website {
+        src: string;
+        alt: string;
+        href: string;
+    }
 
-   let name: website[] = [
-    { src: mode, alt: "logo mode", href: "https://mode.com" },
-      { src: violet, alt: "logo violet", href: "https://violet.com" },
-      { src: sport, alt: "logo sport", href: "https://sport.com" },
-      ]
+    let name: Website[] = [
+        { src: mode, alt: "Logo Mode", href: "https://mode.com" },
+        { src: violet, alt: "Logo Violet", href: "https://violet.com" },
+        { src: sport, alt: "Logo Sport", href: "https://sport.com" }
+    ];
 
-      let figma: website[] = [
-    { src: mode, alt: "logo mode", href: "https://mode.com" },
-      { src: saintv, alt: "logo violet", href: "https://violet.com" },
-      { src: app, alt: "logo sport", href: "https://sport.com" },
-      ]
+    let figma: Website[] = [
+        { src: mode, alt: "Figma Mode", href: "https://mode.com" },
+        { src: saintv, alt: "Figma Saintv", href: "https://violet.com" },
+        { src: app, alt: "Figma App", href: "https://sport.com" }
+    ];
 
-      let logo: website[] = [
-    { src: davix, alt: "logo mode", href: "https://mode.com" },
-      { src: kenneth, alt: "logo violet", href: "https://violet.com" },
-      { src: moon, alt: "logo sport", href: "https://sport.com" },
-      ]
+    let logo: Website[] = [
+        { src: davix, alt: "Logo Davix", href: "https://mode.com" },
+        { src: kenneth, alt: "Logo Kenneth", href: "https://violet.com" },
+        { src: moon, alt: "Logo Moon", href: "https://sport.com" }
+    ];
 </script>
+
 
 
 
