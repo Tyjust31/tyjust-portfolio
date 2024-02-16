@@ -1,0 +1,15 @@
+// Définition du mixin glassmorphism
+@mixin glass-logo($color, $blur, $shadow) {
+  background-color: $color;
+  border-radius: 15px;
+
+  -webkit-backdrop-filter: blur($blur);
+  backdrop-filter: blur($blur);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, $shadow);
+
+  transition: transform 3.3s ease;
+
+  transform: scale(1.1) rotate(5deg);
+  }
+    
+
