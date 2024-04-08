@@ -57,10 +57,9 @@
     @use "$lib/configue" as *;
 
     main{
-        background-color: #111927;
-        width: 98%;
-        margin: 0 auto;
-        border-radius: 100px; /* Bordure arrondie */
+        background-color: #122c5d;
+        
+       
         margin-top: 130px; /* Ajout d'une marge en haut */
         padding-bottom: 190px; /* Ajout d'une marge en bas */
         padding-top: 100px;
