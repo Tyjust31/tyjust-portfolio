@@ -36,7 +36,7 @@
 
 
 
-<main>
+<main >
 
     <div class="trait" role="presentation" aria-hidden="true"></div>
 <h3>

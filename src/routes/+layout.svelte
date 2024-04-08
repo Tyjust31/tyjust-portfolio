@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import cursor from"$lib/cursor.svg"
   import 'aos/dist/aos.css';
 // @ts-ignore
   import AOS from "aos";
@@ -53,7 +54,7 @@ onMount(() => {
 
 
 
-<body style="background-color: {bodyColor}; transition: background-color 0.5s ease-in-out;">
+<body style=" cursor: url({cursor}), auto; /* Utilisez l'image de votre curseur personnalisé */;background-color: {bodyColor}; transition: background-color 0.5s ease-in-out;">
   <Header />
   <slot />
   <Footer />

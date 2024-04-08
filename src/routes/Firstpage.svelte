@@ -4,7 +4,7 @@
 
 <main>
     <div class="presentation">
-        <h1>
+        <h1 >
             My name is Juste Allou <br>
             I love creating software<br>
             CEO of tech <br>

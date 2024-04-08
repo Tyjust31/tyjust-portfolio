@@ -18,8 +18,8 @@
     ];
 </script>
 
-<div class="competence">
-<h2 >Skill</h2>
+<div  class="competence">
+<h2  >Skill</h2>
 
 {#each name as { competence } }
     <h3> { competence } </h3>
@@ -29,10 +29,10 @@
 </div>
 
 
-<div class="aboutme">
+<div  class="aboutme">
     <img  style="border-radius: 20px;"   src={fleur} alt="">
-<h2>About me</h2>
-<p>i'm Tyjust my real name is <br>
+<h2 >About me</h2>
+<p > i'm Tyjust my real name is <br>
     thierry allou kouadio juste <br>
     im raised in ivoiry coast <br>
     and i lived in ivoiry coast and <br> 
